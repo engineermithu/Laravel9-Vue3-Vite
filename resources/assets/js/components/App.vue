@@ -6,7 +6,10 @@
                     <div class="card-header">Home Component</div>
 
                     <div class="card-body">
-                        Welcome to Homepage
+                        <h1>Welcome to Homepage</h1>
+                        <h1>Welcome to Homepage</h1>
+                        <h1>Welcome to Homepage</h1>
+                        <h1>Welcome to Homepage60000</h1>
                         <br/>
                         <router-link to="/user">Go to User</router-link>
                     </div>
