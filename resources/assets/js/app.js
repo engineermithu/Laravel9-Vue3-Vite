@@ -1,10 +1,11 @@
-// require('./bootstrap');
-import './bootstrap';
+// import app from "./components/App";
+
+import('./bootstrap');
+
+
 import {createApp} from 'vue'
 
 import App from './components/App.vue'
+import router from './router'
 
-// const App= createApp(App)
-
-createApp(App).mount("#app")
-
+createApp(App).use(router).mount("#app")
