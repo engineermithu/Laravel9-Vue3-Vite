@@ -5,13 +5,23 @@ const router = createRouter({
     routes: [
         {
             path: '/',
-            name: 'app',
-            component: () => import('../components/App.vue')
+            name: 'about',
+            component: () => import('../components/About.vue')
         },
+        // {
+        //     path: '/app',
+        //     name: 'app',
+        //     component: () => import('../components/App.vue')
+        // },
         {
             path: '/all-user',
             name: 'allUser',
             component: () => import('../components/User.vue')
+        },
+        {
+            path: '/all-employee',
+            name: 'allEmployee',
+            component: () => import('../components/Employee.vue')
         }
     ]
 })

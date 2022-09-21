@@ -6,6 +6,7 @@
     <title>Home -Page</title>
 
     @vite('resources/assets/css/app.css')
+    @vite('resources/assets/css/bootstrap.css')
 </head>
 <body class="antialiased">
 <div id="app"></div>
