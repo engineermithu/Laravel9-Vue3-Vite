@@ -5,7 +5,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card mt-5">
-                        <div class="card-header bg-secondary text-light">Employee Component</div>
+                        <div class="card-header">Employee Component</div>
                         <div class="card-body">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
