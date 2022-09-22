@@ -22,6 +22,11 @@
                         Employee
                     </router-link>
                 </li>
+                <li class="nav-item m-2">
+                    <router-link :to="{name:'allStudent'}">
+                        Student
+                    </router-link>
+                </li>
             </ul>
         </div>
     </div>

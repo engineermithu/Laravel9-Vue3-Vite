@@ -20,3 +20,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('app');
 });
+
+Route::get('/all-user',function (){
+    return view('app');
+});
+
+Route::get('/all-employee',function (){
+    return view('app');
+});
+
+Route::get('/all-student',function (){
+    return view('app');
+});
